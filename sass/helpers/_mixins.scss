@@ -1,0 +1,16 @@
+@use "./functions" as *;
+
+@use "sass:map";
+
+// ! BREAKPOINTS -----------------------------------
+$breakpoints: (
+  "md": rem(768),
+  "lg": rem(1280),
+  "xl": rem(1440),
+);
+
+@mixin breakpoint($size) {
+  @media (width >= map.get($breakpoints, $size)) {
+    @content;
+  }
+}
