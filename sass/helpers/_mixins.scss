@@ -14,3 +14,29 @@ $breakpoints: (
     @content;
   }
 }
+
+// ! FONTS -----------------------------------
+@mixin text-preset-1 {
+  font-family: "Barlow Semi Condensed";
+  font-size: rem(20);
+  font-weight: 600;
+  line-height: 1.2;
+}
+@mixin text-preset-2 {
+  font-family: "Barlow Semi Condensed";
+  font-size: rem(13);
+  font-weight: 500;
+  line-height: 1.1;
+}
+@mixin text-preset-3 {
+  font-family: "Barlow Semi Condensed";
+  font-size: rem(13);
+  font-weight: 500;
+  line-height: 1.4;
+}
+@mixin text-preset-4 {
+  font-family: "Barlow Semi Condensed";
+  font-size: rem(11);
+  font-weight: 600;
+  line-height: 1.1;
+}

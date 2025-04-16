@@ -20,4 +20,4 @@ Your users should be able to:
 - Learn CSS Grid - A 13 Minute Deep Dive : (https://youtu.be/EiNiSFIPIQE?si=MACgDrCtSxdPOmq8).
 
 ## the time it takes:
-( 32m + )
+( 32m + 25m + )

@@ -1,0 +1,21 @@
+@use "./functions";
+
+// ! Colors ------------------------------------
+$clr-white: var(--white);
+$clr-dark-blue: var(--dark_blue);
+$clr-black: var(--black);
+
+$clr-purple_500: var(--purple_500);
+$clr-purple_300: var(--purple_300);
+$clr-purple_50: var(--purple_50);
+
+$clr-grey_500: var(--grey_500);
+$clr-grey_400: var(--grey_400);
+$clr-grey_200: var(--grey_200);
+$clr-grey_100: var(--grey_100);
+
+$spacing-50: rem(4);
+$spacing-100: rem(8);
+$spacing-200: rem(16);
+$spacing-300: rem(24);
+$spacing-400: rem(32);
