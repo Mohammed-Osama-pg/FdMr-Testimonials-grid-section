@@ -1,6 +1,7 @@
-@use "./functions";
+@use "./functions" as *;
 
 // ! Colors ------------------------------------
+$clr-bg: var(--background-color);
 $clr-white: var(--white);
 $clr-dark-blue: var(--dark_blue);
 $clr-black: var(--black);

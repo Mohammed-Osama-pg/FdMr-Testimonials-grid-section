@@ -1,0 +1,12 @@
+@use "../helpers" as *;
+
+body {
+  background-color: $clr-bg;
+}
+.hidden-title {
+  display: none;
+}
+
+.testimonials {
+  display: grid;
+}
