@@ -9,4 +9,39 @@ body {
 
 .testimonials {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(rem(305), 1fr));
+  gap: $spacing-400;
+  padding: rem(73) rem(35);
+
+  .card {
+    width: 100%;
+    padding: $spacing-400;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: $spacing-200;
+    border-radius: $spacing-100;
+    position: relative;
+    color: $clr-white;
+
+    &--daniel {
+      background-color: $clr-purple_500;
+    }
+    &--jonathan {
+      background-color: $clr-grey_500;
+    }
+    &--jeanette {
+      background-color: $clr-white;
+    }
+    &--patrick {
+      background-color: $clr-dark-blue;
+    }
+    &--kira {
+      background-color: $clr-white;
+    }
+
+    &-shape {
+      display: none;
+    }
+  }
 }
