@@ -99,6 +99,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 1.0625rem;
+  z-index: 1;
 }
 .testimonials .card__header .avatar {
   width: 1.75rem;
@@ -155,6 +156,7 @@ body {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 120%;
+  z-index: 1;
 }
 .testimonials .card__headline--jeanette {
   color: var(--grey_500);
@@ -171,6 +173,7 @@ body {
   font-weight: 500;
   line-height: 140%;
   color: var(--purple_50);
+  z-index: 1;
 }
 .testimonials .card__testimony--jonathan {
   color: var(--grey_100);
@@ -183,4 +186,19 @@ body {
 }
 .testimonials .card__testimony--kira {
   color: var(--grey_400);
+}
+@media (width >= 48rem) {
+  .testimonials {
+    padding: 5.1875rem 3.75rem 7.0625rem;
+  }
+  .testimonials .card-shape {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 25.8%;
+  }
+  .testimonials .card--daniel, .testimonials .card--patrick, .testimonials .card--kira {
+    grid-column: span 2;
+  }
 }/*# sourceMappingURL=style.css.map */
