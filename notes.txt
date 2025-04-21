@@ -1,23 +1,23 @@
 # Testimonials grid section challenge
 
-## What the challenge.
-is to build out this testimonials grid section and get it looking as close to the design as possible.
+## What is the challenge?
+It is to build out this testimonials grid section and get it looking as close to the design as possible.
 
 Your users should be able to:
-- View the optimal layout for the site depending on their device's screen size.
+- View the optimal layout for the site depending on the device's screen size.
 
 ## Ideas to test myself.
-- Write your styles using a pre-processor, such as Sass, Less or Stylus.
+- Write your styles using a pre-processor, such as Sass, Less, or Stylus.
 - Practice working in a team by building with friends.
 - Train your eye for detail by getting your solution as close to the design as you can.
 - Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers.
 
 ## What it requires.
 - learning about grid layout.
-- shearch for How to find people to collaborate and friend and break my insecurtie.
+- search for How to find people to collaborate and friends and break my insecurity.
 
 ## Search and resources.
 - Learn CSS Grid - A 13 Minute Deep Dive : (https://youtu.be/EiNiSFIPIQE?si=MACgDrCtSxdPOmq8).
 
 ## the time it takes:
-( 32m + 25m + )
+( 32m + 25m + 70m) without writing the Readme file and notes

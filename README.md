@@ -1,91 +1,85 @@
-# Frontend Mentor - Testimonials grid section
+# Frontend Mentor - Testimonials Grid Section
 
-![Design preview for the Testimonials grid section coding challenge](./preview.jpg)
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).It's a responsive layout challenge showcasing testimonials in a clean, grid-based design.
 
-## Welcome! 👋
+## 🚀 Live Site
 
-Thanks for checking out this front-end coding challenge.
+- **Live URL**: [Add your live site link here](https://mohammed-osama-pg.github.io/FdMr-Testimonials-grid-section/)
+- **GitHub Repo**: [Add your GitHub repo link here](https://github.com/Mohammed-Osama-pg/FdMr-Testimonials-grid-section.git)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## 📑 Table of Contents
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+- [Pre-Project Notes](#-pre-project-notes)
+  - [What is the challenge?](#-what-is-the-challenge)
+  - [Ideas to test myself](#-ideas-to-test-myself)
+  - [Requirements](#-requirements)
+  - [Resources & References](#-resources--references)
+  - [Time Taken](#-time-taken)
+- [Built With](#️-built-with)
+- [Screenshot](#-screenshot)
+- [What I Learned](#-what-i-learned)
+- [Useful Resources](#-useful-resources)
+- [Author](#-author)
 
-## The challenge
+---
 
-Your challenge is to build out this testimonials grid section and get it looking as close to the design as possible.
+## 📝 Pre-Project Notes
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### ❓ What is the challenge?
 
-Your users should be able to:
+It is to build out this testimonials grid section and get it looking as close to the design as possible.
 
-- View the optimal layout for the site depending on their device's screen size
+**Users should be able to:**
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+- View the optimal layout for the site depending on the device's screen size.
 
-## Where to find everything
+### 💡 Ideas to test myself
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+- Write styles using a CSS pre-processor (Sass, Less, or Stylus)
+- Practice working in a team by building with friends
+- Train my eye for detail by getting the solution as close to the design as possible
+- Estimate the time it will take to build the project and compare with the actual time
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### 📋 Requirements
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+- Learning about **CSS Grid Layout**
+- Researching how to collaborate and connect with other developers
+- Pushing myself to break through insecurity to contect with people.
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+### 🔍 Resources & References
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+- [Learn CSS Grid – A 13 Minute Deep Dive](https://youtu.be/EiNiSFIPIQE?si=MACgDrCtSxdPOmq8)
 
-## Building your project
+### ⏱️ Time Taken
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+Approx. **2 hours and 7 minutes** (32m + 25m + 70m)  
+_Note: This doesn't include time spent on writing the ReadMe and pre-project notes._
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+---
 
-## Deploying your project
+## 🛠️ Built With
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+- HTML5
+- Sass (CSS Pre-processor)
+- CSS Grid
+- Mobile-first design
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+## 📸 Screenshot
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+![The Project Preview](./preview.jpg)
+![My Project Screenshot](./screenshot.png)
 
-## Create a custom `README.md`
+## 💡 What I Learned
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+This project helped me become more comfortable with CSS Grid and how to create responsive, multi-column layouts. It also made me reflect on the importance of collaboration, and I took the first steps toward learning how to reach out and work with other developers.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+## 📚 Useful Resources
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+- [Sass Documentation](https://sass-lang.com/documentation)
+- [CSS Grid Guide by MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
 
-## Submitting your solution
+## 👤 Author
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- GitHub – [Mohammed-Osama](https://github.com/Mohammed-Osama-pg)
+- Linkedin – [@Mohammed-Osama](https://www.linkedin.com/in/mohammed-osama-a4124228b)
+- Frontend Mentor – [@Mohammed-Osama](https://www.frontendmentor.io/profile/Mohammed-Osama-pg)
