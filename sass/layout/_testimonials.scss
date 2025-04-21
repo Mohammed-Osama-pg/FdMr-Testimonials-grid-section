@@ -23,6 +23,7 @@ body {
     border-radius: $spacing-100;
     position: relative;
     color: $clr-white;
+    @include dropshadow;
 
     &--daniel {
       background-color: $clr-purple_500;
@@ -74,17 +75,56 @@ body {
     &__name {
       @include text-preset-2;
       margin-bottom: $spacing-50;
+
+      &--jeanette {
+        color: $clr-grey_500;
+      }
+      &--kira {
+        color: $clr-grey_500;
+      }
     }
     &__status {
       @include text-preset-4;
       color: $clr-purple_50;
+
+      &--jonathan {
+        color: $clr-grey_300;
+      }
+      &--jeanette {
+        color: $clr-grey_400;
+      }
+      &--kira {
+        color: $clr-grey_300;
+      }
     }
     &__headline {
       @include text-preset-1;
+      &--jeanette {
+        color: $clr-grey_500;
+      }
+      &--patrick {
+        color: $clr-grey_200;
+      }
+      &--kira {
+        color: $clr-grey_500;
+      }
     }
     &__testimony {
       @include text-preset-3;
       color: $clr-purple_50;
+
+      &--jonathan {
+        color: $clr-grey_100;
+      }
+      &--jeanette {
+        color: $clr-grey_400;
+      }
+      &--patrick {
+        color: $clr-grey_100;
+      }
+      &--kira {
+        color: $clr-grey_400;
+      }
     }
   }
 }

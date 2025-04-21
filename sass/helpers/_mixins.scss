@@ -40,3 +40,8 @@ $breakpoints: (
   font-weight: 500;
   line-height: 110%;
 }
+
+// ! Effects -----------------------------------
+@mixin dropshadow {
+  box-shadow: rem(40) rem(60) rem(50) rem(-47) rgb(72, 85, 106, 0.24);
+}

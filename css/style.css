@@ -8,6 +8,7 @@
   --purple_50: #ede4ff;
   --grey_500: #48556a;
   --grey_400: #676d7e;
+  --grey_300: #a3aab4;
   --grey_200: #cfcfcf;
   --grey_100: #e7eaee;
 }
@@ -73,6 +74,7 @@ body {
   border-radius: 0.5rem;
   position: relative;
   color: var(--white);
+  box-shadow: 2.5rem 3.75rem 3.125rem -2.9375rem rgba(72, 85, 106, 0.24);
 }
 .testimonials .card--daniel {
   background-color: var(--purple_500);
@@ -126,6 +128,12 @@ body {
   line-height: 110%;
   margin-bottom: 0.25rem;
 }
+.testimonials .card__name--jeanette {
+  color: var(--grey_500);
+}
+.testimonials .card__name--kira {
+  color: var(--grey_500);
+}
 .testimonials .card__status {
   font-family: "Barlow Semi Condensed";
   font-size: 0.6875rem;
@@ -133,11 +141,29 @@ body {
   line-height: 110%;
   color: var(--purple_50);
 }
+.testimonials .card__status--jonathan {
+  color: var(--grey_300);
+}
+.testimonials .card__status--jeanette {
+  color: var(--grey_400);
+}
+.testimonials .card__status--kira {
+  color: var(--grey_300);
+}
 .testimonials .card__headline {
   font-family: "Barlow Semi Condensed";
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 120%;
+}
+.testimonials .card__headline--jeanette {
+  color: var(--grey_500);
+}
+.testimonials .card__headline--patrick {
+  color: var(--grey_200);
+}
+.testimonials .card__headline--kira {
+  color: var(--grey_500);
 }
 .testimonials .card__testimony {
   font-family: "Barlow Semi Condensed";
@@ -145,4 +171,16 @@ body {
   font-weight: 500;
   line-height: 140%;
   color: var(--purple_50);
+}
+.testimonials .card__testimony--jonathan {
+  color: var(--grey_100);
+}
+.testimonials .card__testimony--jeanette {
+  color: var(--grey_400);
+}
+.testimonials .card__testimony--patrick {
+  color: var(--grey_100);
+}
+.testimonials .card__testimony--kira {
+  color: var(--grey_400);
 }/*# sourceMappingURL=style.css.map */
