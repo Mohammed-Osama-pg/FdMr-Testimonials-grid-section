@@ -50,51 +50,53 @@ body {
       justify-content: flex-start;
       align-items: center;
       gap: rem(17);
-    }
-    &__avatar {
-      width: rem(28);
-      height: rem(28);
-      border-radius: 50%;
-      border: rem(2) solid $clr-purple_300;
-      overflow: hidden;
-      img {
-        width: 100%;
-        object-fit: cover;
-      }
+      .avatar {
+        width: rem(28);
+        height: rem(28);
+        border-radius: 50%;
+        border: rem(2) solid $clr-purple_300;
+        overflow: hidden;
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
 
-      &--jonathan {
-        border-color: transparent;
+        &--jonathan {
+          border-color: transparent;
+        }
+        &--jeanette {
+          border-color: transparent;
+        }
+        &--kira {
+          border-color: transparent;
+        }
       }
-      &--jeanette {
-        border-color: transparent;
-      }
-      &--kira {
-        border-color: transparent;
-      }
-    }
-    &__name {
-      @include text-preset-2;
-      margin-bottom: $spacing-50;
+      .info {
+        &__name {
+          @include text-preset-2;
+          margin-bottom: $spacing-50;
 
-      &--jeanette {
-        color: $clr-grey_500;
-      }
-      &--kira {
-        color: $clr-grey_500;
-      }
-    }
-    &__status {
-      @include text-preset-4;
-      color: $clr-purple_50;
+          &--jeanette {
+            color: $clr-grey_500;
+          }
+          &--kira {
+            color: $clr-grey_500;
+          }
+        }
+        &__status {
+          @include text-preset-4;
+          color: $clr-purple_50;
 
-      &--jonathan {
-        color: $clr-grey_300;
-      }
-      &--jeanette {
-        color: $clr-grey_400;
-      }
-      &--kira {
-        color: $clr-grey_300;
+          &--jonathan {
+            color: $clr-grey_300;
+          }
+          &--jeanette {
+            color: $clr-grey_400;
+          }
+          &--kira {
+            color: $clr-grey_300;
+          }
+        }
       }
     }
     &__headline {

@@ -100,54 +100,54 @@ body {
   align-items: center;
   gap: 1.0625rem;
 }
-.testimonials .card__avatar {
+.testimonials .card__header .avatar {
   width: 1.75rem;
   height: 1.75rem;
   border-radius: 50%;
   border: 0.125rem solid var(--purple_300);
   overflow: hidden;
 }
-.testimonials .card__avatar img {
+.testimonials .card__header .avatar img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.testimonials .card__avatar--jonathan {
+.testimonials .card__header .avatar--jonathan {
   border-color: transparent;
 }
-.testimonials .card__avatar--jeanette {
+.testimonials .card__header .avatar--jeanette {
   border-color: transparent;
 }
-.testimonials .card__avatar--kira {
+.testimonials .card__header .avatar--kira {
   border-color: transparent;
 }
-.testimonials .card__name {
+.testimonials .card__header .info__name {
   font-family: "Barlow Semi Condensed";
   font-size: 0.8125rem;
   font-weight: 500;
   line-height: 110%;
   margin-bottom: 0.25rem;
 }
-.testimonials .card__name--jeanette {
+.testimonials .card__header .info__name--jeanette {
   color: var(--grey_500);
 }
-.testimonials .card__name--kira {
+.testimonials .card__header .info__name--kira {
   color: var(--grey_500);
 }
-.testimonials .card__status {
+.testimonials .card__header .info__status {
   font-family: "Barlow Semi Condensed";
   font-size: 0.6875rem;
   font-weight: 500;
   line-height: 110%;
   color: var(--purple_50);
 }
-.testimonials .card__status--jonathan {
+.testimonials .card__header .info__status--jonathan {
   color: var(--grey_300);
 }
-.testimonials .card__status--jeanette {
+.testimonials .card__header .info__status--jeanette {
   color: var(--grey_400);
 }
-.testimonials .card__status--kira {
+.testimonials .card__header .info__status--kira {
   color: var(--grey_300);
 }
 .testimonials .card__headline {
