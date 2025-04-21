@@ -6,10 +6,17 @@ body {
 .hidden-title {
   display: none;
 }
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .testimonials {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(rem(305), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(rem(255), 1fr));
   gap: $spacing-400;
   padding: rem(73) rem(35);
 
@@ -147,6 +154,21 @@ body {
       &--patrick,
       &--kira {
         grid-column: span 2;
+      }
+    }
+  }
+
+  @include breakpoint("lg") {
+    grid-template-columns: repeat(auto-fit, minmax(rem(254), 1fr));
+    max-width: rem(1115);
+    padding: 0;
+    margin: auto;
+    .card {
+      &-shape {
+        right: 11.1%;
+      }
+      &--kira {
+        grid-area: 1 / 4 / 3 / 5;
       }
     }
   }
