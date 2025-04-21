@@ -91,4 +91,58 @@ body {
 }
 .testimonials .card-shape {
   display: none;
+}
+.testimonials .card__header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.0625rem;
+}
+.testimonials .card__avatar {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  border: 0.125rem solid var(--purple_300);
+  overflow: hidden;
+}
+.testimonials .card__avatar img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.testimonials .card__avatar--jonathan {
+  border-color: transparent;
+}
+.testimonials .card__avatar--jeanette {
+  border-color: transparent;
+}
+.testimonials .card__avatar--kira {
+  border-color: transparent;
+}
+.testimonials .card__name {
+  font-family: "Barlow Semi Condensed";
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 110%;
+  margin-bottom: 0.25rem;
+}
+.testimonials .card__status {
+  font-family: "Barlow Semi Condensed";
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 110%;
+  color: var(--purple_50);
+}
+.testimonials .card__headline {
+  font-family: "Barlow Semi Condensed";
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+.testimonials .card__testimony {
+  font-family: "Barlow Semi Condensed";
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 140%;
+  color: var(--purple_50);
 }/*# sourceMappingURL=style.css.map */
